@@ -1,0 +1,43 @@
+{
+  "name": "little-component",
+  "version": "1.0.0",
+  "description": "A React component for imperative communication between components, enabling parent-child and sibling function calls without props drilling.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --ignore **/*.test.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "example": "http-server -p 3000"
+  },
+  "keywords": [
+    "React",
+    "component-communication",
+    "imperative-api",
+    "function-calling",
+    "parent-child",
+    "sibling-components",
+    "react-hooks-alternative",
+    "imperative-handling"
+  ],
+  "author": "faTbear17",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "http-server": "^14.1.1",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0"
+  }
+}
