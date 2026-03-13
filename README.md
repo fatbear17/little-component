@@ -1,5 +1,8 @@
 # Little Component
 
+[![npm version](https://img.shields.io/npm/v/little-component.svg)](https://www.npmjs.com/package/little-component)
+[![GitHub stars](https://img.shields.io/github/stars/fatbear17/little-component.svg)](https://github.com/fatbear17/little-component)
+
 A small React component to access inner functions or variables of React components from outside.
 
 ## Installation
