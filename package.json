@@ -1,6 +1,6 @@
 {
   "name": "little-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component for imperative communication between components, enabling parent-child and sibling function calls without props drilling.",
   "main": "dist/index.js",
   "scripts": {
