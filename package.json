@@ -19,7 +19,10 @@
     "react-hooks-alternative",
     "imperative-handling"
   ],
-  "author": "faTbear17",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fatbear17/little-component.git"
+  },
   "license": "MIT",
   "files": [
     "dist"
