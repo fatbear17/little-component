@@ -1,6 +1,6 @@
 {
   "name": "little-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component for imperative communication between components, enabling parent-child and sibling function calls without props drilling.",
   "main": "dist/index.js",
   "scripts": {
@@ -32,6 +32,7 @@
     "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
+    "react": "^16",
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
